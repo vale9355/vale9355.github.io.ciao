@@ -6,6 +6,11 @@
     margin: o;
 }
 
+body {
+    background-image: url(../img/Breaking-Bad.jpg);
+    background-color: #cccccc;
+}
+
 img {
     width: 100%;
     max-width: 900px;
@@ -18,6 +23,32 @@ nav li {
     width: 50%;
     padding: 10px;
     border: 1px solid gray;
+}
+
+.bottone1 {
+    border: 1px solid green;
+    background-color: firebrick;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.bottone2 {
+    border: 1px solid blue;
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.bottone1:hover {
+    background-color: white;
+    color: firebrick;
+    cursor: pointer;
+}
+
+.bottone2:hover {
+    background-color: white;
+    color: firebrick;
+    cursor: pointer;
 }
 
 header {
