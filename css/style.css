@@ -98,3 +98,10 @@ li {
     width: 70%;
     padding: 5px;
 }
+
+@media (max-width:600px) {
+    body {
+        background-color: red;
+        background-image: none;
+    }
+}
